@@ -1,0 +1,3414 @@
+/* css pour le site ippidb */
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 98%;
+	height: auto !important;
+	height: 98%;
+	margin: 0 auto -75px;
+}
+
+.push {
+	height: 17px;
+	clear:both;
+}
+
+.footer {
+	//background-color: #f6f6f6; gris
+	//background-color: #f2f2ff; mauve
+	//no-repeat;
+	//background: url('../img/fond.png');
+	background-color: #f9f9f9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-align: center;
+	clear:both;
+	padding: 5px;
+	height: 75px;
+	//margin-left: auto;
+    //margin-right: auto;
+    //margin-top: 30px;
+    //margin-bottom: 20px;
+    margin: auto;
+	width: 1170px;
+	border-color: #F4F4F4;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 2;
+
+}
+canvas {
+	height: 350;
+    width: 350;
+}
+
+élément {
+    position: absolute;
+    z-index: 101;
+    top: 2795px;
+    left: 680px;
+    width: 350px;
+    height: 350px;
+}
+
+#home {
+	color: #000;
+    text-decoration: none;
+}
+
+.logo {
+	//height: 130px;
+	margin-left: 45px;
+	margin-bottom: 50px;
+}
+
+#logoANR {
+	width: 180px;
+	margin-left: 175px;
+	margin-right: 20px;
+}
+
+.detailAcknow {
+	color: #555;
+    margin-top: 0;
+}
+
+.bulletFleche {
+	height: 12px;
+    width: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.strongTitreBleu {
+	color: #0099e6;
+    margin: 0px;
+}
+
+
+.ssTitreSimilarite {
+	//color: #0099e6;
+    color: #000000;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: normal;
+}
+
+
+
+.detailAcknowANR {
+	 background-color: #F9F9F9;
+	border: 1px solid #eeeeee;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px;
+	width: 340px;
+	margin-left: 75px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.detailAcknowChem {
+    background-color: #F9F9F9;
+	border: 1px solid #eeeeee;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px;
+	width: 340px;
+	display: inline-block;
+	margin-left: 150px;
+	margin-top: 20px;
+	text-align: justify;
+	vertical-align: top;
+	}
+
+#logoChemaxon {
+	margin-right: 20px;
+	margin-left: 330px;
+}
+
+#logoMTI {
+	width: 190px;
+	margin-left: 130px;
+	margin-right: 20px;
+}
+
+#logoCDithem {
+	//width: 600px;
+	margin-left: 150px;
+	margin-right: 20px;
+}
+
+#logoInserm {
+	width: 280px;
+	margin-left: 70px;
+	margin-right: 180px;
+}
+
+#logoP7 {
+	width: 85px;
+	margin-right: 180px;
+}
+
+#logoSorbonne {
+	width: 150px;
+	//margin-right: 20px;
+}
+
+#myCarousel {
+	border: 1px solid #eeeeee;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.acknowIndex {  
+	//margin-left: 50px;
+	margin-top: 30px;
+}
+
+.ssTitreGuide {
+	background-color: #F9F9F9;
+	border: 1px solid #eeeeee;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #00669a;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.encadreImg{  
+	padding: 5px 5px 5px 15px;
+    margin-top: 10px;
+}
+
+div.bordure_verticale {
+    height: 330px;
+    //padding: 5px;
+    margin-top: 10px;
+    width: 1px;
+    border-right: 1px solid #eeeeee;
+
+}
+
+.placeEcriture {
+	padding-top:130px;
+	padding-left: 120px;
+	vertical-align:middle;
+	
+}
+
+.fondChoixSelection {
+	width: 400px;
+	height: 160px;
+	border: 1px solid #E2E2E2;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	font-size:20px;
+	font-weight : bold;
+	
+}
+
+#choixPharmaco {
+	background-image:url('../img/captSelectionCriteresTest1.png');
+}
+
+#choixSimilarite {
+	background-image:url('../img/captSelectionSimilariteTest1.png');
+}
+
+.noDrug {
+    visibility: hidden;
+}
+
+#warningDrug  {
+    color: #e64d00;
+    display:inline;
+}
+
+#changeMargeDrugSelec  {
+    margin-left: 0px;
+    width: 320px;
+}
+
+
+#demo {
+	background-image:url('../img/glyphicons_008_filmBleuPetit.png');
+	background-repeat:no-repeat;
+	background-position:2% 50%;
+}
+
+.demoItem {
+	background-image:url('../img/glyphicons_368_flecheDroite.png');
+	background-repeat:no-repeat;
+	background-position:0% 50%;
+}
+
+.spanDemoItem {
+    padding-left: 17px;
+    width: 310px;     
+    margin-left: 60px;
+    margin-top: 5px;
+    color: #888888;
+	font-size: 15px;
+	font-weight: bold;
+    }
+
+.spanPlayer {
+    width: 323px;
+     border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+    padding: 1px;
+    margin-left: 60px;
+    margin-top: 10px;
+    }
+
+
+.ssTitre {
+	background-color: #F9F9F9;
+	border: 1px solid #eeeeee;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #666;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.ssTitreAcknow {  
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+
+.travaux {
+	width: 370px;
+    margin: 60px 360px;
+}
+
+.newsLetter {
+	margin-top:4px;
+    //padding-bottom:40px;
+    color: #666666;
+    text-align: right;
+    
+}
+
+.iconNewsLetter {
+	margin-right: 6px;
+    width: 19px;
+    padding-bottom: 5px;
+    
+}
+
+.tailleForm {
+	width: 610px;
+    margin:0px;
+    display: inline-block;
+    padding:5px;
+    float: right;
+    
+    
+}
+
+.span3-4Moyen {
+    width: 310px;
+    margin-left: 15px;
+  }
+
+.span2-3 {
+	width: 201px;
+    
+}
+
+.span5-6 {
+	width: 509px;
+    
+}
+
+.tailleH2 {
+	width: 165px;
+    display: inline-block;
+    margin-right: 150px;
+    
+}
+
+#statusNews {
+	visibility: hidden;
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+
+.infosResults {
+	vertical-align: text-bottom;
+	padding-left: 2px;
+	padding-right: 2px;
+    //margin-left: 660px;
+    //display: inline;	
+}
+
+#infosResultsModify {
+	vertical-align: text-bottom;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+    //margin-left: 660px;
+    //display: inline;	
+}
+
+.infosResultsFicheID {
+	vertical-align: baseline;
+    	
+}
+
+
+.descriptionAcceuil {
+	text-align: justify;
+	font-size: 16px;
+	color: #555555;
+	line-height: 22px; /* interligne */
+	//border-right: 1px solid #eeeeee;
+	padding-right: 17px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.descriptionAcceuil a {
+	text-decoration: none;
+    	
+}
+
+
+.descriptionAcceuilLigne2 {
+	text-align: justify;
+	font-size: 16px;
+	color: #555555;
+	line-height: 22px; /* interligne */
+	//border-right: 1px solid #eeeeee;
+	padding-right: 17px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.descriptionAcceuilLigne2 a {
+	text-decoration: none;
+    	
+}
+
+
+.textContributeur {
+	text-align: justify;
+	font-size: 16px;
+	color: #555555;
+	line-height: 23px; /* interligne */
+	//border-right: 1px solid #eeeeee;
+	padding-right: 17px;
+   // margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.contribQuestion {
+	text-align: justify;
+	font-size: 16px;
+	color: #0099e6;
+	line-height: 22px; /* interligne */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.textContributeur li {	
+    margin-bottom: 5px;
+}
+
+.contribGeneral {	
+    border: 1px solid #F4F4F4;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    background-color: #F9F9F9;
+
+}
+
+.asterisque {
+	/*color: #FF6600;*/
+	color: #cd0021;
+	font-size: 16px;
+    font-weight:bold;
+}
+
+.texteRouge  {
+	color: #cd0021;
+	display: inline;
+}
+
+.sansSaut  {
+	display: inline;
+}
+
+#formInscription {
+  font-size: 14px;
+  color: #777777;
+ }
+
+
+.antispam {
+  font-size: 14px;
+  color: #777777;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.formContrib {	
+    border: 1px solid #ddd;
+     //border: 1px solid #e4e4e4;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+    width: 450px;
+    //margin-top: 100px;
+    //margin-left: 750px;
+    //padding-top: 10px;
+    background-color: #f9f9f9;
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.formContrib .caption {
+  text-align: center;
+  padding: 9px 15px;
+  margin-bottom: 17px;
+  line-height: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+  color: #0099e6;
+}
+
+.astePrecision {
+    //position: absolute;
+	text-align: right;
+    //top: 400px;
+    //left: 231px;
+	margin-left: 256px;
+    //margin-bottom: 10px;
+    display: inline;
+}
+
+.asteQueryPharmaco {
+    float: right;   
+    font-size: 14px;
+    font-weight: normal;
+    display: inline;
+    margin-bottom: 10px;
+    
+}
+
+.positionTriangle {
+    position: relative;
+     width: 460px;
+     margin-top: 100px;
+    margin-left: 750px;
+}
+
+.submitContrib {
+	display: inline;
+}
+
+
+#triangleContrib{
+    top: 160px;
+    left: -7px;
+    font-size: 0px; line-height: 0%; width: 0px;
+    //border-bottom: 7px solid #F4F4F4;/* couleur du triangle*/
+    border-top: 7px solid transparent;/* couleur du triangle*/
+    border-bottom: 7px solid transparent; 
+    border-right: 7px solid #ddd; 
+    margin-right: 0px;
+    position: absolute;
+}
+
+
+#entete {
+	margin-bottom: 40px;
+    font-size: 14px;
+}
+
+#entete-droite {
+	text-align: right;
+}
+
+.newCount{
+  /*color: #81CFFF;*/
+  color:#0099e6;
+  font-size: 18px;
+}
+
+#signUp > h2 {
+  /*color: #81CFFF;*/
+  //display:inline;
+  margin-bottom: 30px;
+}
+
+.couleur {
+	color: #0099e6;
+}
+
+th {
+	color: #0099e6;
+}
+
+.enteteNoir {
+	color: #444444;
+}
+
+#signUp > form {
+  /*color: #81CFFF;*/
+ /* border: 1px solid #eeeeee;*/border: 1px solid #F4F4F4;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 15px 10px;
+	margin-top: 2px;
+    background-color: #F9F9F9;
+    color: #666666;
+    font-size: 14px;
+}
+
+.lienLostPwd {
+	margin-left: 145px;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+
+#signUp  {
+	/*background-color: #f6f6f6;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;*/
+	margin: 18px 0;
+}
+
+#lienSignUp {
+	text-align: right;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#lienSignUp img{
+	padding-bottom: 3px;
+}
+
+.activity{
+	display: inline;
+	width: 55px;
+}
+
+.donnees {
+	margin-top: 20px;
+}
+
+.donneesFiltre {
+	margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#activiteBloc {
+	margin: 0;
+}
+
+#activite {
+	margin: 0px;
+	
+}
+
+#activiteMilieu {
+	//margin:0 10px;
+	//border-right: 1px solid #E4E4E4;
+	
+}
+#essai {
+	margin: 0px;
+	display: inline;
+	align: right;
+	
+}
+
+
+
+
+#impaire {
+	background-color: #f9f9f9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px 10px;
+	margin: 10px 0px;
+	border-color: #F4F4F4;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.strongBleu strong  {  
+  color:#0099e6;
+  font-weight: normal;
+}
+
+.strongBleuGras  {  
+  color:#0099e6;
+  font-weight: bold;
+  display: inline;
+}
+
+
+.AlterSimilarite  {  
+  color:#0099e6;
+  margin-top: 10px;
+}
+
+
+.logoChemaxonPetit{  
+  width: 80px;
+  vertical-align: text-bottom;
+  margin-bottom: 3px;
+}
+
+
+.fondGrisBordsRonds {
+/* remplace #impaireGauche */
+	background-color: #f9f9f9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	//padding: 10px 80px 10px 10px;
+	//margin: 10px auto;
+	border-color: #F4F4F4;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.placeSketch {  
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	//background-color: #FFFFFF;
+	padding-bottom: 10px;
+}
+
+#sketch {
+    margin-top: 10px;
+}
+
+#statusMol {
+    margin-top: 3px;
+    margin-left: 30px;
+    //font-size: 12px;
+    font-weight: bold;
+    vertical-align: text-bottom;
+    //color: #72da8f;
+    
+}
+
+.imgTexte {	
+	vertical-align:text-bottom;	  
+}
+
+.imgTexteUL {	
+	vertical-align:middle;	
+    margin-left: 5px;  
+}
+
+#attentionSimilarite {	
+	
+    color: #e64d00; 
+    display:inline;
+}
+
+#okMolSimilarite {	
+	
+    color: #72da8f; 
+    display:inline;
+}
+
+#enCoursMolSimilarite {	
+	
+    color: #0099e6; 
+    display:inline;
+}
+
+#enCoursSmilesSimilarite {	
+	
+    color: #0099e6; 
+    display:inline;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#errorMolSimilarite {	
+	
+    color: #cd0021; 
+    display:inline;
+}
+
+
+.fondBlanc {
+	background-color: #ffffff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.placeTextArea{  
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+.styleTextarea {
+	max-width: 96%;
+    width: 96%;
+    height: 5%;
+    margin: 10px 4px 5px 6px;
+    
+}
+
+textarea[readonly="readonly"]
+{
+    background-color:#FFFFFF;
+}
+
+
+form li {
+    list-style-type: disc;
+    //color: #0088cd;
+    }
+
+.formatLabel {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+
+/*#formSelectSimilarite input {
+    margin-left: 10px;
+    margin-top: 5px;
+    }*/
+
+.offset0-1 {
+    margin-left: 65px;
+  }
+
+.alignDroite {
+	margin-top: 5px;
+	float: right;
+}
+
+.sliderThreshold {
+	width: 30px;
+	color: #00669a;
+	border: none;
+	text-align: center;
+	//color: #f6931f; 
+	font-weight: bold;
+	display: inline;
+	vertical-align: text-bottom;
+	margin-bottom: 5px;
+}
+
+.alignInline {
+	display: inline;
+}
+
+
+/* page selectionCriteres.php */
+
+#impaireDroite {	
+	padding: 10px 0px 28px 20px;
+	margin: 10px 0px 10px 16px ;
+	
+}
+
+#impaireDroiteDrug {    	
+	padding: 10px 0px 10px 20px;
+	margin: 10px 0px 10px 16px ;
+	
+}
+
+
+#impaireDroiteFiltre {	
+	padding: 10px 0px 23px 20px;
+	margin: 10px 0px 10px 16px ;
+	
+}
+
+.checkFilterPetit {
+    width: 70px;	
+	padding-right: 10px;
+	margin: 0px ;
+    display: inline-block;
+	
+}
+
+.checkFilter {
+    width: 130px;	
+	padding-left: 10px;
+	margin: 0px ;
+    display: inline-block;
+	
+}
+
+
+.donneesFiltre .controls {    	
+	padding: 0px;
+	margin: 0px ;
+	
+}
+
+.donneesFiltre .control-group {    	
+	margin-bottom: 5px;
+	
+}
+
+
+
+.impaireGauche {
+	padding: 10px 80px 10px 10px;
+	margin: 10px auto;
+}
+
+#espacementEtape3 {
+	padding: 10px 40px 28px 10px;
+	margin: 10px auto;
+}
+
+#espacementEtape3 .donnees {
+	padding-left: 15px;
+}
+
+#espacementEtape4 {
+	padding-left: 20px;
+	/*margin: 10px auto;*/
+}
+
+.span3-4Petit {
+  width: 220px;
+}
+
+.span7-8 {
+  width: 730px;
+}
+
+.spanDrugSimilarity {
+  width: 785px;
+  //margin-left: 40px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding:0px;
+}
+
+.span0-1 {
+  width: 24px;
+  margin-left: 7px;  
+  font-weight: bold;
+}
+
+
+#placeTn {  
+   padding-top: 186px;
+   margin-bottom: 0px; 
+  
+}
+
+#placePh {  
+   padding-top: 7px; 
+   margin-bottom: 0px;
+  
+}
+
+#placeAc {  
+   padding-top: 9px; 
+   margin-bottom: 0px;
+  
+}
+
+.alignement {
+	margin: auto;
+}
+
+#label-large {
+  width: 220px;
+  padding-right: 20px;
+}
+
+.span3-4 {
+    width: 350px;
+    margin: 0;
+  }
+
+.espaceBas {
+	margin-top: 100px;
+}
+
+.offsetVertical {
+	margin-top: 110px;
+}
+
+.positionTriangle .alert {
+	width: 400px;
+       
+}
+
+.alert {
+	text-align: justify;
+    padding-left: 20px;
+       
+}
+
+
+.logoChemaxon {
+	width: 75px;
+    vertical-align: middle;
+    margin-left: 215px;
+    margin-top: 10px;    
+}
+
+.infos {
+	font-size: 14px;
+}
+
+.infos img{
+	vertical-align: bottom;
+}
+
+#limite {
+	width: 11px;
+	padding-left: 15px;
+	vertical-align:middle;
+}
+
+#limiteNoLabel {
+	width: 11px;
+	padding-left: 13px;
+	padding-right: 13px;
+	vertical-align:middle;
+}
+
+#barre {
+	height: 28px;
+	width: 7px;
+	margin: 0 15px;
+	vertical-align:middle;
+}
+
+.dropdown {
+	display:inline;
+}
+
+#bienvenue {
+	display:inline;
+	color:#0088cc;
+}
+
+#boutonGauche {
+	margin: auto;
+	align: right;
+}
+
+
+.bordureFiltre {
+	border-right: 1px solid #E4E4E4;
+    margin-right: 20px; 
+}
+
+.bordure {
+	border-right: 1px solid #E4E4E4;
+}
+
+#more {
+	float: right; 
+}
+
+#question {
+	background: url('../img/fondQuestion.png') no-repeat center;
+	background-size: 20px;
+	margin:0;
+    padding:0;
+	//width: 5px;
+	vertical-align: middle;
+	display: inline;
+	
+	//margin-left: 5px;
+}
+
+#question:hover {
+	color: #0088cc;
+  	text-decoration: none;
+}
+
+#centre_contenu {
+	display: none;
+}
+
+#loader {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0099e6;
+}
+
+#testloader {
+	margin-top: 20px;
+    padding-top: 30px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0099e6;
+    visibility: hidden;
+}
+
+	
+#mol2D {
+	border: 1px solid #E4E4E4;
+	//width : 100px;
+	width : 97px;
+	//width : 150px; 
+}
+
+#zoom img {
+	border: 1px solid #E4E4E4;
+	height: 100%;
+    width: 100%;
+	
+}
+
+#zoom{
+	//float: left;
+    //height: 100px;
+    height: 97px;
+    width: 97px;
+    //margin: 0px;
+    //width: 100px;
+    //overflow: visible;
+}
+
+#caseTest {
+	max-width: 80px;
+    //margin: 0 auto;
+  }
+  
+#caseBiblio {
+	min-width: 60px;
+    //margin: 0 auto;
+}
+
+
+#pourZoom {
+	height: 100px;
+	width: 100px;
+    //margin: 0 auto;
+    }
+
+#zoom img:hover{
+	border: 1px solid #E4E4E4;
+	height: 350px;
+	left: -100px;
+	position: relative;	
+	//width: 600px;	
+	top: -100px;
+    width: 350px;    
+    //padding: 3px;    
+}
+
+#cacher {
+	visibility: collapse;
+}
+
+#afficher {
+	visibility: visible;
+}
+
+#separateur{
+	border-bottom: 1px solid #E4E4E4;
+	padding: 0 0 5px 0;
+	margin: 0 0 6px 0;
+	display: block;
+}
+
+#logoBiblio {
+	width: 15px;
+	padding-right: 3px;
+	padding-bottom: 5px;
+}
+
+#crochet {
+	height: 17px;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom: 3px;
+}
+
+#imgCompoundGauche {
+	border: 1px solid #E4E4E4;
+	width: 350px;
+	margin-right: 10px;
+	margin-left: 2px;
+}
+
+.ficheDescrACP {
+	border: 1px solid #E4E4E4;
+	width: 350px;
+	height: 350px;
+	vertical-align: top;
+	padding-top: 10px;
+	padding: 0 5px 0 5px;
+	background: #F9F9F9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	position: relative;
+}
+
+#LegendePhysChem {
+    width: 147px;
+    height: 35px;
+    background-image:url('../img/showCaption.png');
+    no-repeat;
+    border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#LegendePharmaco {
+    width: 147px;
+    height: 35px;
+    background-image:url('../img/showCaption.png');
+    no-repeat;
+    border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#LegendePhysChem:hover {
+   cursor: pointer;
+}
+
+#LegendePharmaco:hover {
+   cursor: pointer;
+}
+
+
+#echelleOrdonnees10 {
+	position: absolute;
+	top: 8px;
+	left: 40px;
+}
+
+#echelleOrdonnees8 {
+	position: absolute;
+	top: 48px;
+	left: 40px;
+}
+
+#echelleOrdonnees6 {
+	position: absolute;
+	top: 87px;
+	left: 40px;
+}
+
+#echelleOrdonnees4 {
+	position: absolute;
+	top: 128px;
+	left: 40px;
+}
+#echelleOrdonnees2 {
+	position: absolute;
+	top: 167px;
+	left: 35px;
+}
+
+#echelleOrdonnees0 {
+	position: absolute;
+	top: 207px;
+	left: 35px;
+}
+
+#echelleOrdonneesMin2 {
+	position: absolute;
+	top: 246px;
+	left: 35px;
+}
+
+#echelleOrdonneesMin4 {
+	position: absolute;
+	top: 286px;
+	left: 35px;
+}
+
+#echelleOrdonneesMin6 {
+	position: absolute;
+	top: 294px;
+	left: 35px;
+}
+
+
+#legende {
+	position: absolute;
+	top: 330px;
+	left: 335px;
+    cursor: pointer;
+}
+
+#ficheDescrLegendeACP {
+	width: 110px;
+}
+
+#ficheBlocLegendeACP {	
+	position: absolute;
+	margin: auto;
+    top: 350px;
+}
+
+#legendeACP {
+    visibility: hidden;
+    position: relative;
+}
+
+#legendeLE {
+    visibility: hidden;
+}
+
+#echelleOrdonneesLLE1 {
+	position: absolute;
+	top: 3px;
+	left: 40px;
+}
+
+#echelleOrdonneesLLE2 {
+	position: absolute;
+	top: 38px;
+	left: 40px;
+}
+
+#echelleOrdonneesLLE3 {
+	position: absolute;
+	top: 78px;
+	left: 40px;
+}
+#echelleOrdonneesLLE4 {
+	position: absolute;
+	top: 117px;
+	left: 40px;
+}
+
+#echelleOrdonneesLLE5 {
+	position: absolute;
+	top: 158px;
+	left: 40px;
+}
+
+#echelleOrdonneesLLE6 {
+	position: absolute;
+	top: 197px;
+	left: 40px;
+}
+
+#echelleOrdonneesLLE7 {
+	position: absolute;
+	top: 236px;
+	left: 35px;
+}
+
+#echelleOrdonneesLLE8 {
+	position: absolute;
+	top: 276px;
+	left: 35px;
+}
+
+.table-striped tbody tr.testRefActivite td,
+.table-striped tbody tr.testRefActivite th {
+  //background-color: #d7eaff;
+  //border-top: 2px solid #0099e6;
+  border-top: 2px solid #0077b5;
+  //border-bottom: 2px solid #0099e6;
+  border-bottom: 2px solid #0077b5;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.table-striped tbody tr.testRefActivite { 
+  border: 2px solid #0077b5;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.table-striped tbody tr.testRefActivite td.ref,
+.table-striped tbody tr.testRefActivite th.ref {
+  color: #0099e6;
+  font-weight: bold;
+}
+
+
+.rectangle {
+	width:25px;
+	height:10px;
+	background:#fff;
+    border: 2px solid #0077b5;
+    display: inline;
+    padding: 0px;
+    position: absolute;
+    top: -10px;
+    left: 7px;
+}
+
+.rectanglePop {
+	width:25px;
+	height:10px;
+	background:#fff;
+    border: 2px solid #0077b5;
+    display: inline;
+    padding: 0px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-top: 2px;
+    vertical-align: baseline;
+}
+
+.rectangleTxtPop {
+	display: inline;
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#explActi {
+    position: absolute;
+    top: -14px;
+    left: 50px;
+    display: inline;
+    padding-right: 22px;
+}
+
+#formLE {
+    margin-left: 10px;
+    //margin-top: 3px;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#formLLE {
+    margin-left: 10px;
+    margin-top: 8px;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.blocLegendeLE{
+	width: 215px;
+    height: 345px;
+    text-align: justify;
+    //padding-bottom: 14px;	
+	display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: top;
+}
+
+.blocLegendeLE p {
+    line-height: 165%;
+}
+
+.blocLegendeLE .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+#testRefActivite {
+//background-color : #32cd32;
+	background-color: #EFF5FB !important;
+    //#EFF2FB;
+    //#EFF5FB;
+    //#E0ECF8;
+    //#E0F2F7;
+    //#EFF8FB
+}
+
+
+#legendeLLE1 {	
+	position: absolute;
+	top: 310px;
+    left: 110px;
+}
+
+#legendeLLE2 {	
+	position: absolute;
+	top: 310px;
+    left: 186px;
+}
+
+#legendeLLE3 {	
+	position: absolute;
+	top: 310px;
+    left: 258px;
+}
+
+#legendeLLE4 {	
+	position: absolute;
+	top: 310px;
+    left: 322px;
+}
+
+.infoTests {	
+	display: inline;
+	width: 500px;
+    margin-left: 130px;
+    vertical-align: top;
+}
+
+.blocLLE {	
+	margin: 0;
+}
+
+.positionLE {
+    width: 200px;
+	position: relative;
+}
+
+
+.ficheTestTitreDroite {	
+    background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 700px;
+    margin-left: 100px;
+    font-weight: bold;
+	color: #555555;
+}
+
+.ficheTestTitreDroiteTab {	
+    background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	width: 700px;
+    margin-left: 100px;
+    font-weight: bold;
+	color: #555555;
+}
+
+.tabTest {	
+	display: inline-block;
+	width: 700px;
+    margin-left: 105px;    
+    vertical-align: top;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.blocDroiteTests {	
+	//display: inline;
+	width: 900px;
+    //margin-left: 350px;
+}
+
+
+.numBiblio {	
+	margin-right: 100px ;
+	//margin-left: 20px ;
+    color: #0099e6;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.numTestBioch {	
+	margin-right: 100px ;
+    color: #0099e6;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.numTestCell {	
+	color: #0099e6;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.numValeur {	
+	text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    font-weight: normal;
+}
+
+
+#placeFamille1 {
+	position: absolute;
+	top: -156px;
+	left: 0px;
+}
+
+#placeFamille2 {
+	position: absolute;
+	top: -132px;
+	left: 0px;
+}
+
+#placeFamille3 {
+	position: absolute;
+	top: -108px;
+	left: 0px;
+}
+
+#placeFamille4 {
+	position: absolute;
+	top: -84px;
+	left: 0px;
+}
+
+#placeFamille5 {
+	position: absolute;
+	top: -60px;
+	left: 0px;
+}
+
+#placeFamille6 {
+	position: absolute;
+	top: -36px;
+	left: 0px;
+}
+
+#placeFamille7 {
+	position: absolute;
+	top: -12px;
+	left: 0px;
+}
+
+#placeFamille8 {
+	position: absolute;
+	top: 12px;
+	left: 0px;
+}
+
+#placeFamille9 {
+	position: absolute;
+	top: 36px;
+	left: 0px;
+}
+
+#placeFamille10 {
+	position: absolute;
+	top: 60px;
+	left: 0px;
+}
+
+#placeFamille11 {
+	position: absolute;
+	top: 84px;
+	left: 0px;
+}
+
+#placeFamille12 {
+	position: absolute;
+	top: 108px;
+	left: 0px;
+}
+
+#placeFamille13 {
+	position: absolute;
+	top: 132px;
+	left: 0px;
+}
+
+#explicationRegle {
+	position: absolute;
+	top: 140px;
+	left: 5px;
+    width: 267px;
+}
+
+.explicationRegleModal {
+	margin-left: 40px;
+    width: 290px;
+    margin-top: 5px;
+    text-align: justify;
+    margin-right: 8px;
+}
+
+.displayLine {
+	display: inline-block;
+    margin-left: 60px;
+}
+
+
+#placeLigneRouge {
+	position: absolute;
+	top: -27px;
+	left: 70px;
+    width: 220px;
+}
+
+#ligneRouge {
+	position: absolute;
+	top: 5px;
+	left: 6px;
+}
+
+.spanImgRadarModal {
+	margin-left: 40px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 70px;
+}
+
+.spanTextRadarModal {
+	margin-left: 0px;
+    width: 220px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 8px;
+    text-align: justify;
+}
+
+
+#placeLigneBleue {
+	position: absolute;
+	top: -2px;
+	left: 70px;
+    width: 220px;
+}
+
+#ligneBleue {
+	position: absolute;
+	top: 30px;
+	left: 5px;
+}
+
+#aire {
+	position: absolute;
+	top: 55px;
+	left: 5px;
+}
+
+#placeAireBleue {
+	position: absolute;
+	top: 23px;
+	left: 70px;
+    width: 210px;
+}
+
+
+.blocLegendeACPFamilleMarge {
+    //margin-top: 60px;	
+	display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    //width: 180px;
+    width: 140px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.blocLegendeACPFamille {
+    //margin-top: 60px;	
+	display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    //width: 180px;
+    width: 140px;
+}
+
+.blocLegendeRadar {
+    width: 292px;
+    height: 330px;	
+	display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.blocLegendeRadarModal {
+    //width: 292px;
+   // height: 330px;	
+	display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+.blocLegendeACP {
+    display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: top;
+}
+    
+.blocLegendeRules {
+    //width: 205px;
+    width: 355px;
+    //padding-bottom: 14px;	
+	display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.blocRules {
+    width: 370px;	
+    margin-top: 20px;
+	display: block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.blocRulesVeber {
+    position: absolute;
+    top: 67px;
+    left: 255px;
+    width: 146px;
+    margin: 3px;
+    display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.blocRules375 {
+    position: absolute;
+    top: 177px;
+    left: 255px;
+    width: 146px;
+    margin: 3px;
+    display:inline-block;
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.tabResults {
+    border: #E4E4E4;    
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;     
+}
+
+.lipGauche  {  
+    width: 145px;
+    padding-left: 50px;  
+    display: inline-block;
+    border-right: 1px solid #E4E4E4;
+}
+
+.lipDroite  {
+    padding-left: 50px;
+    display: inline-block;
+}
+
+
+.blocLegendeACP img {
+    margin: 1px;
+   // position: relative;
+}
+
+.analyse {
+    margin-right: 5px;
+    margin-left: 5px;
+   
+}
+
+.infosDescriptors {
+    margin-left: 30px;
+    width: 300px;  
+}
+
+#afficheLegende {
+    visibility: visible;
+    color: #0099e6;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+   
+}
+
+#cacheLegende {
+    visibility: hidden;
+    color: #0099e6;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 120px;
+    vertical-align: middle;
+    margin-left: 300px;
+   
+}
+
+
+.descrRadar {
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;   
+}
+
+.tabDescrRules {
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;     
+}
+
+.blocTabDescrRules {
+    width: 357px;  
+    margin-left: 3px;
+    margin-top: 7px; 
+    display: inline-block;
+    vertical-align: top;  
+}
+
+.tabDescrRadar {
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.blocTabDescrRadar {
+    width: 294px;  
+    margin-left: 3px;
+    margin-top: 7px;
+    //margin-right: 10px; 
+    display: inline-block;  
+}
+
+.tabDescrACP {
+    border:1px solid #E4E4E4;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.blocTabDescrACP {
+    width: 462px;
+    display: inline-block; 
+    margin-left: 3px;
+    margin-top: 10px; 
+}
+
+.legendeExplication strong {
+    color: #0e0ec9; 
+    font-weight: normal;
+}
+
+.explikRules {
+margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.explikRules strong{
+    color:#0099e6;
+    //color:#555555;
+	font-weight: 600;
+}
+
+.legendeExplication {
+	text-align: justify;
+    padding: 3px;
+    display: inline-block;
+    //margin-right: 8px;
+}
+
+
+#couleurFamille {
+    margin-left: 10px;
+}
+
+.blocFamille {
+    display: inline-block;
+    //margin-top: 3px;
+    position: relative;
+    //top: 5px;
+    
+}
+
+
+.blocRadarModal {
+    display: inline-block;    
+}
+
+.rules {
+    width: 350px;
+    
+}
+
+.ficheDescrTitreLegendeRules {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+    //width: 750px;
+    width: 355px;
+    margin-right: 0px;
+    font-weight: bold;
+	color: #555555;
+    }
+    
+    .ficheDescrTitreLegendeRadar {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+    font-weight: bold;
+	color: #555555;
+    //width: 750px;
+    //width: 355px;
+    }
+
+.ficheDescrTitreLegendeACP {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+    //width: 550px;
+    font-weight: bold;
+	color: #555555;
+    }
+
+
+#separeLegende {
+    padding-left: 10px;
+    border-left: 1px solid #E4E4E4;
+}
+
+
+.familleCible {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+
+.blocLegendeACP .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.blocLegendeRadar .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.blocLegendeRules .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.blocRules .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.blocRulesVeber .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.blocRules375 .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+
+.blocLegendeACPFamille .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.blocLegendeACPFamilleMarge .caption {
+  text-align: center;
+  padding: 9px 15px;
+  line-height: 1;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+#triangleACP{
+    margin-left: 232px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 0px; line-height: 0%; width: 0px;
+    border-bottom: 7px solid #F4F4F4;/* couleur du triangle*/
+    border-left: 7px solid transparent; 
+    border-right: 7px solid transparent; 
+}
+
+.ACPlegende {    
+    margin-left: 10px;
+    width: 470px;     
+    display: inline-block;
+    vertical-align: top;
+    }
+
+.Radarlegende {    
+    display: inline-block;
+    margin-left: 10px;
+    width: 300px;
+    height: 417px; 
+    vertical-align: top;
+}
+
+
+.Ruleslegende {    
+    display: inline-block;    
+    width: 370px; 
+}
+
+
+#triangleRadar{
+    margin-left: 178px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 0px; line-height: 0%; width: 0px;
+    border-bottom: 7px solid #F4F4F4;/* couleur du triangle*/
+    border-left: 7px solid transparent; 
+    border-right: 7px solid transparent; 
+}
+
+.separeLegende  {   
+    padding-right: 35px;
+    border-right: 1px solid #E4E4E4;
+}
+    
+    
+.blocImgRules  {       
+    margin-left: 10px;
+    margin-right: 10px; 
+    display: inline-block;
+}
+
+.blocImgRules2  {       
+     position: relative;
+     height: 14px;
+}
+
+#infosColRule { 
+    position: absolute;
+	top: -120px;
+	left: 205px;
+    font-weight: bold;
+    color: #555555;
+} 
+
+#infosColDescr { 
+    font-weight: bold;
+    color: #555555;
+} 
+
+
+#placeRules1  { 
+    position: absolute;
+	top: -80px;
+	left: -150px;
+} 
+
+#placeRules2  { 
+    position: absolute;
+	top: -46px;
+	left: -150px;
+} 
+
+#placeRules3  { 
+    position: absolute;
+	top: -100px;
+	left: 240px;
+} 
+
+#placeRules4  { 
+    position: absolute;
+	top: -66px;
+	left: 240px;
+} 
+
+#placeRules5  { 
+    position: absolute;
+	top: -14px;
+	left: -150px;
+} 
+
+#okLegende {	
+	background-color: #72da8f;
+	width: 15px;
+	height: 15px;
+	//margin-left:auto;
+	//margin-right:auto;
+}
+ 
+#nonOkLegende {	
+	background-color: #cd0021;
+	width: 15px;
+	height: 15px;
+
+} 
+
+#tiretVertical {
+	white-space:nowrap;
+	display: inline;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	font-weight:normal;	
+	position: absolute;
+	top: 30px;
+	left: 65px
+	padding:0;
+	margin:0;
+}
+
+#imgCompoundMilieu img {	
+	//width: 300px;
+	//height: 300px;
+	//margin-top: 20px;
+	//margin-right: 20px;
+	float: right;
+	border: none;
+	//border-left: 1px solid #BBBBBB;
+	//border-bottom: 1px solid #BBBBBB;
+}
+
+#abscisseACP {	
+	position: absolute;
+	top: 330px;
+	left: 150px;
+}
+
+#abscisseLLE {	
+	position: absolute;
+	top: 330px;
+	left: 185px;
+}
+
+#ordonneeACP {
+	writing-mode:lr-tb;
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform: rotate(270deg);
+	white-space:nowrap;
+	display: inline-block;
+	//bottom:0;
+	width:35px;
+	height:40px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;	
+	position:absolute;
+	top: 160px;
+	padding:0;
+	margin:0;
+}
+
+#ordonneeLLE {
+	writing-mode:lr-tb;
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform: rotate(270deg);
+	white-space:nowrap;
+	display: inline-block;
+	//bottom:0;
+	width:35px;
+	height:40px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;	
+	position:absolute;
+	top: 140px;
+	padding:0;
+	margin:0;
+}
+
+.graphe {	
+	position: absolute;
+	z-index: 1;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	left: 50px;
+	top: 10px;
+}
+
+
+#legende1 {	
+	position: absolute;
+	top: 310px;
+    left: 77px;
+}
+
+#legende2 {	
+	position: absolute;
+	top: 310px;
+    left: 171px;
+}
+
+#legende3 {	
+	position: absolute;
+	top: 310px;
+    left: 263px;
+}
+
+#axe {	
+	position: absolute;
+	z-index: 2;
+	display: inline-block;
+	width: 310px;
+	height: 309px;
+	left: 40px;
+	top: 10px
+}
+
+.drugSim .table th, .table td {
+	
+    padding: 8px;
+    margin: 0px;
+}
+.imgRefSimilarite {	
+    width: 350px;
+}
+
+.imgRefSimilarite img{	
+	border: 1px solid #eee;
+}
+
+.imgRefSimilarite p{	
+	color:#0099e6;
+	font-weight: bold;
+    text-align: center;
+    width: 350px;
+}
+
+
+.imgDrugSimilarite {	
+	width: 350px;
+}
+
+.DrugSimilarite {	
+	width: 65px;
+}
+
+.tabDrug {	
+	 margin-left: 200px;
+     width: 798px;
+     display: inline-block;
+}
+
+
+/*.imgRefSimilarite.affix {
+    position: fixed;	
+	top: 527px;
+}*/
+
+
+
+#okGlobal {	
+	background-color: #72da8f;
+	background-image: url("../img/glyphicons-halflings-white.png");
+	background-position: -288px 0;
+	width: 15px;
+	height: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	//position: absolute;
+	//top: -83px;
+	//left: 210px;
+}
+
+#okGlobalLegende {	
+	background-color: #72da8f;
+	background-image: url("../img/glyphicons-halflings-white.png");
+	background-position: -288px 0;
+	width: 15px;
+	height: 15px;
+	margin-left:auto;
+	margin-right:auto;
+    position: absolute;
+	top: -83px;
+	left: 210px;
+}
+
+#ok {	
+	background-color: #72da8f;
+	width: 15px;
+	height: 15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#nonOkGlobal {	
+	background-color: #cd0021;
+	background-image: url("../img/glyphicons-halflings-white.png");
+	background-position: -312px 0;
+	width: 15px;
+	height: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	//position: absolute;
+	//top: -50px;
+	//left: 210px;
+}
+
+#nonOkGlobalLegende {	
+	background-color: #cd0021;
+	background-image: url("../img/glyphicons-halflings-white.png");
+	background-position: -312px 0;
+	width: 15px;
+	height: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	position: absolute;
+	top: -50px;
+	left: 210px;
+}
+
+
+#nonOk {	
+	background-color: #cd0021;
+	width: 15px;
+	height: 15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#neutre {	
+	background-color: #F0F0F0;
+	width: 15px;
+	height: 15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.neutre {	
+	background-color: #F0F0F0;
+	width: 15px;
+	height: 15px;
+	margin:0;
+}
+
+
+.ficheDescrTitre {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 350px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.ficheDescrTitrePCACircle {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 358px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.ficheDescrTitreDrug {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 500px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.ficheDescrTitreFamily {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 190px;
+	font-weight: bold;
+	color: #555555;
+}
+
+
+#ficheDescrRadar {	
+	border: 1px solid #E4E4E4;
+    padding-left: 6px;
+    padding-right: 6px;
+	//width: 350px;
+	float: left;
+	//display: inline-block;
+    }
+
+.iupac {	
+	font-weight: normal;
+    text-align: justify;
+    font-size: 15px;
+    color: #555;
+}
+
+.ficheIDMol {	
+	margin-left: 200px; 
+}
+
+.logoBiblioFicheID {
+    padding-bottom: 3px;
+	margin-right: 5px ;
+    width: 20px;
+}
+
+.refFicheIDSpider {	
+	text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.refFicheIDChembl {	
+	text-align: center;
+    display: block;
+    //margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.refFicheID {	
+	text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.refGauche { 
+    margin-left: 170px;   
+	margin-right: 100px ;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.refMilieu { 
+    margin-right: 100px ;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.refDroite {    
+	margin-right: 100px ;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.sansLien:hover  {    
+	text-decoration: none;
+    cursor: default;
+    color: #0099e6;
+    /*color: #00669a;*/
+    
+}
+
+.sansLien  {    
+	text-decoration: none;
+    cursor: default;
+    color: #0099e6;
+    /*color: #005581;*/
+    
+}
+
+.iconNewSearch  {    
+	margin-left: 30px;
+    
+}
+
+.iconCalc  {    
+	vertical-align: text-bottom;
+    margin-left: 2px;
+    margin-bottom: 1px;
+    
+}
+
+.avecTrait  {    
+	border-bottom: 1.5px solid #DDDDDD;
+    color: #0099e6;
+    font-weight: bold;
+    padding-bottom: 5px;
+    
+}
+
+.infosSummary  {    
+	margin-bottom: 20px;
+    margin-left: 0px;
+    
+}
+
+
+
+.moncercle{
+  border-radius:50%;
+  width:3px;
+  height:3px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 8px; 
+  margin-right: 2px;
+  display: inline;
+  font-size: 8px;
+  vertical-align: text-bottom;
+  margin-bottom: 10px;
+}
+
+.moncercleMDM2{
+  background:#96C5DC;
+    
+}
+.moncercleBCL2{
+  background:#0E5C97;
+    
+}
+.moncercleLFA{
+  background:#9DD87E;
+    
+}
+.moncercleXiap{
+  background:#128C6D;
+    
+}
+.moncercleCD4{
+  background:#FE8E85;
+    
+}
+.moncercleLEDGF{
+  background:#971D19;
+    
+}
+.moncercleCD80{
+  background:#DB0016;
+    
+}
+.moncercleBRD{
+  background:#C9862D;
+    
+}
+.moncercleBetaCaten{
+  background:#FAB362;
+    
+}
+.moncercleMENIN{
+  background:#EDBBFF;
+    
+}
+.moncercleIL2{
+  background:#FE6C00;
+    
+}
+.moncercleE2{
+  background:#C4ADD1;
+    
+}
+.moncercleMyc{
+  background:#C04DC4;
+    
+}
+.moncercleNRP{
+  background:#A8184B;
+    
+}
+.moncercleUPAR{
+  background:#CBDCFF;
+    
+}
+.moncercleVEGF{
+  background:#FED215;
+    
+}
+.moncercleFAK{
+  background:#6700FF;
+    
+}
+.moncerclezipA{
+  background:#FEFE01;
+    
+}
+
+.moncercleBleu{
+  background:#0099e6;
+    
+}
+
+.moncercleGris{
+  background:#CCCCCC;
+  
+}
+
+.moncercleRouge{
+  background:#b3001e;
+}
+
+.moncercleLegende{
+  padding-bottom: 15px;
+  display: inline;
+}
+
+#NameSh {	
+	color:#0099e6;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ficheIDTitre {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
+    font-weight: bold;
+	color: #555555;
+    }
+
+.summLegende {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: justify;
+	margin: 30px;
+    line-height: 165%;
+
+    }
+    
+.offset0-1 {
+  margin-left: 80px;
+}
+
+.offsetFamPhysico {
+  margin-left: 50px;
+}
+
+.offsetPCAPhysico {
+  margin-left: 70px;
+}
+
+.spanFamilyPhysico {
+  width: 200px;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+    
+.summLegendeBiplot {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: justify;
+	margin-top: 20px;
+    //margin-left: 40px;
+    //margin-right: 30px;
+    line-height: 165%;
+
+    }
+    
+.rulesImg {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.physchemLegende {
+	background-color: #F9F9F9;
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+	text-align: justify;
+	margin-top: 78px;
+    margin-left: 25px;
+    line-height: 165%;
+    }
+
+.blocInfosSummaryMilieu {
+	margin-right: 60px;
+    margin-left: 60px;
+	display: inline-block;
+    vertical-align: top;
+}
+
+.blocInfosSummaryDroite {
+	display: inline-block;
+}
+
+#summary {
+	margin-top: 25px;
+}
+
+
+.section {	
+	width: 362px;
+	display: inline-block;
+    vertical-align: top;
+}
+
+.imgCmpdSimilarity {	
+    display: inline-block;
+}
+
+
+.ficheCompMilieu {	
+	margin-left: 38px;
+	margin-right: 38px;
+}
+
+.ficheDescrRules {	
+	 margin-right: 0px;
+     width: 362px;
+}
+
+.ficheDescrRules .table td {	
+	 padding-top: 9px;
+     padding-bottom: 9px;
+}
+
+
+.cadreGrisBordsRond {
+	border: 1px solid #F4F4F4;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 5px;
+    margin-bottom: 30px;
+	
+    }
+
+
+#iconQuestion {
+	border: 1px solid #0099e6;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	//width : 500px;
+	//width : 15px; 
+	//background-color: #0099e6;
+	vertical-align: middle;
+}
+
+#mol2DPop {
+	padding: 2px;
+	width : 350px;
+	display:inline;
+	position : relative;
+	left:-45px;
+	border: 1px solid #E4E4E4;
+}
+
+#radarChart {
+	border: 1px solid #E4E4E4; 
+	width : 350px;
+}
+
+#results:td {
+	text-align: center;
+  	vertical-align: middle;
+
+}
+
+.valeur {
+	padding: 5px 10px;
+	list-style-type:none;
+	//padding: 0px;
+	display:inline-block;
+	//position: relative;
+	//left:-50px;
+	margin-left: 30px;
+	max-width:125px;
+	max-height; auto;	
+	text-align: left;
+	vertical-align:top;
+}
+
+#bloc {	
+	position: relative;
+	margin: auto;
+}
+#nom {
+	padding: 5px;
+	display: inline-block;
+	position: absolute;
+	left:380px;
+	top: 95px;
+	margin: auto;
+	max-width:350px;
+	max-height; auto;	
+	text-align: left;
+	vertical-align:top;
+}
+
+#intitule {
+	/*padding-left: 10px;*/
+	padding: 5px;
+	list-style-type:none;
+	position : relative;
+	left:-50px;
+	margin: auto;
+	display:inline-block;
+	text-align: left;
+	vertical-align:top;
+	color:#0099e6;
+	font-weight: bold;
+	  
+}
+
+#ficheIDIntitule {
+	/*padding-left: 10px;*/
+	padding: 5px;
+	list-style-type:none;	
+	margin: auto;
+	display:inline-block;
+	text-align: left;
+	//vertical-align:top;
+	color:#0099e6;
+	font-weight: bold;
+	  
+}
+
+#ficheIDValeur {
+	padding: 5px;
+	list-style-type:none;
+	//padding: 0px;
+	display:inline-block;
+	//position: relative;
+	//left:-50px;
+	margin: auto;
+	//max-width:125px;
+	//max-height; auto;	
+	text-align: left;
+	//vertical-align:top;	  
+}
+
+
+.intituleIppidb {
+	/*padding-left: 10px;*/
+	padding: 5px;
+	list-style-type: square;
+    display:inline-block;
+	text-align: left;
+	vertical-align:top;
+	color:#0099e6;
+	font-weight: bold;
+	  
+}
+
+
+
+#pop {	
+	border: 0px;
+	background-color: #FFFFFF;	  
+}
+
+#blocHisto {
+	background-color: #f9f9f9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px 80px 10px 10px;
+	margin: 10px auto;
+	border-color: #F4F4F4;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+#titreHisto {	
+	font-weight: bold;
+	font-size:16px;
+	position:relative;
+	left: 210px;	  
+}
+
+#abscisse {	
+	font-weight: normal;
+	font-size:14px;	
+	//padding-top: 10px;
+	position:relative;
+	left: 230px;	  
+}
+
+#chevron_tri {	
+	display: block;
+	text-align: center;
+	//position: relative;	 
+	//left: 1px; 
+}
+
+#down {	
+	vertical-align: middle; 
+}
+
+#up {	
+	vertical-align: middle; 
+}
+
+p.css-vertical-text {
+	//color:#333;	
+	writing-mode:lr-tb;
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform: rotate(270deg);
+	white-space:nowrap;
+	display: inline-block;
+	bottom:0;
+	width:35px;
+	height:30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;	
+	position:relative;
+	top: 240px;
+	padding:0;
+	margin:0;
+	//text-shadow: 0px 0px 1px #333;
+}
+
+.css-vertical-text {
+	color:#0099e6;	
+	writing-mode:lr-tb;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+    font-weight:bold;
+    margin-left: auto;
+    margin-right: auto;	
+    white-space:nowrap;
+	display: inline-block;
+	//bottom:0;
+	//width:20px;
+	//height:20px;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;	
+	position:relative;
+	top: 240px;
+	padding:0;
+	margin:0;*/
+	//text-shadow: 0px 0px 1px #333;
+}
+
+.titreTabSimil {
+	background-color: #FFFFFF; 
+    margin: 0px;
+    padding: 0px; 
+    border: 0px;  
+    
+}
+
+#titreDrugSimil {
+	height: 50px;
+    width: 6px;
+    padding: 0px;   
+    
+}
+
+#titrePhSimil {
+	width: 6px;
+    padding: 0px;
+    border: 0px;   
+    
+}
+#titreTnSimil {
+	width: 6px;
+    padding: 0px; 
+    border: 0px;  
+    
+}
+
+#titreActSimil {
+	height: 40px;
+    width: 6px;
+    padding: 0px; 
+    border: 0px;  
+    
+}
+
+
+
+.grosBlocHisto {	
+	//width: 450px;	
+	width: 280px;	  
+}
+
+.grosBlocHisto img {	
+	//width: 450px;
+	width: 280px;
+	height: 249px;
+	//height: 400px;	
+	position:relative;
+	left: 30px;
+	top: -20px;  
+}
+
+
+
+
+/* page news */
+
+.teteTriangle {
+    width: 0; 
+	height: 0; 
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;	
+	border-bottom: 70px solid #0099e6;
+    margin-right: 20px;
+
+}
+
+.corpsRectangle {
+
+    background-color:#0099e6;
+    width: 70px;
+    height:20px;
+    margin-left: 565px;
+    
+}
+
+
+.corpsRectangleTexte {
+
+    background-color:#0099e6;
+    width: 70px;
+    height:40px;
+   // height:auto;    
+}
+
+.corpsRectangleLigneTexte {
+
+    background-color:#0099e6;
+    width: 70px;
+    height:210px;
+   // height:auto;    
+}
+
+.texteHorsUl {
+    color:#0099e6;
+    font-weight: bold; 
+}
+
+
+.texteNews {
+	padding: 5px;
+	list-style-type: square;
+    display:inline-block;
+	text-align: left;
+	vertical-align:top;
+	color:#585858;
+	font-weight: bold;
+    }
+    
+.texteNews li {
+	line-height: 1.3;
+    margin: .6em 0;
+    }
+
+
+.texteNewsG {
+	 
+    //margin-right: 80px;
+    padding-left: 60px;
+    padding-right: 75px;
+
+	  
+}
+
+.texteNewsD {
+	  
+    margin-left: 140px;
+
+	  
+}
+
+.ligneTexte {
+	//padding-left: 135px;
+	  
+}
+
+
+.borderTop {
+
+    border-bottom: 1px solid #F4F4F4;
+    
+}
+
+
+.publiNews {
+	 background-color: #F9F9F9;
+	border: 1px solid #eeeeee;
+  -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px;
+	//width: 340px;
+	margin-left: 25px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.retraitDroiteTitre {
+	 margin-left: 65px;
+}
+
+.retraitDroiteContenu {
+	 margin-left: 90px;
+}
+
+.newsTitreBloc {
+	 color:#0099e6;
+     font-weight:bold;
+     font-size: 14px;
+     padding-top: 10px;
+     //padding-left: 528px;
+     text-align: center;
+     background-color: white;
+}
+
+.newsTitre {
+	 margin:0px;
+     padding:0px;
+     //text-decoration:underline;
+     font-weight:bold;
+     text-align: justify;
+}
+
+.newsCorpsPubli {	 
+     float: left;
+     padding:0px;
+     margin:0 0 0 20px;
+}
+
+.newsDates {	 
+     margin-left: 15px;
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 18px;
+     color:#FFFFFF;
+}
+
+.newsCat {	 
+     
+     font-weight: bold;
+     font-size: 18px;
+     text-align: center;  
+     color:#555555;
+     background-color: #F9F9F9; 
+     -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+    padding-top: 10px;  
+    padding-bottom: 10px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* pour la pagination et le tri du tableau */
+div.dataTables_length label {
+    width: 460px;
+    float: left;
+    text-align: left;
+}
+ 
+div.dataTables_length select {
+    width: 75px;
+}
+ 
+div.dataTables_filter label {
+    float: right;
+    width: 460px;
+}
+ 
+div.dataTables_info {
+    padding-top: 8px;
+}
+ 
+div.dataTables_paginate {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ 
+
